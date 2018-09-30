@@ -1,0 +1,79 @@
+
+
+<!-- Relative Paths Assignment 1 -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style>
+.portfolio_img {
+  float: left;
+  width: 240px;
+  height: 240px;
+  margin: 30px;
+  position: relative;
+  background-size: 240px 240px;
+}
+
+.portfolio_content {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  font: 14px/35px helvetica;
+  text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+  <center>
+    <header>
+        <div class="header">
+                <a href="#active" class="logo">Nick Willbanks</a>
+                <div class="header-right">
+                  <a class="default" href="index.html">About</a>
+                  <a href="portfolio.html">Portfolio</a>
+                  <a href="contact.html">Contact</a>
+                </div>
+              </div>
+    </header>
+      <div class="contentContainer" style="height: 864px">
+  <div class="portfolio_img" style="background-image: url('assets/images/Nick_Happypic.jpg')">
+    <div class="portfolio_content">
+      Keeping it Real
+    </div>
+  </div>
+    <div class="portfolio_img" style="background-image: url('assets/images/GAMEOVER.png')">
+      <div class="portfolio_content">
+      Nobody Likes Your Cat
+      </div>
+   </div>
+    <div class="portfolio_img" style="background-image: url('assets/images/Nick_Duluth.jpg')">
+      <div class="portfolio_content">
+      Yeah, She's Alright
+      </div>
+    </div>
+    <div class="portfolio_img" style="background-image: url('assets/images/Nick_Dylan.jpg')">
+      <div class="portfolio_content">
+      Bro Code
+      </div>
+    </div>
+    <div class="portfolio_img" style="background-image: url('assets/images/background.png')">
+      <div class="portfolio_content">
+      Something I Guess
+      </div>
+    </div>
+  </div>
+</center>
+</body>
+
+</html>
